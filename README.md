@@ -1,4 +1,4 @@
-# phpunit
+# PHPUnit
 
 ## Installing PHPUnit
 ### To globally install the PHAR:
