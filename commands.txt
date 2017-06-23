@@ -1,0 +1,31 @@
+Install PHPUNIT
+    Linux
+      wget https://phar.phpunit.de/phpunit.phar 
+      chmod +x phpunit.phar
+      mv phpunit.phar /usr/local/bin/phpunit
+    Windows
+      Download https://phar.phpunit.de/phpunit.phar 
+      php phpunit.phar --version
+
+PHP unit tests:
+	Git clone https://github.com/manojkhande/phpunit.git
+
+Install Wp-cli:
+	curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+	php wp-cli.phar --info
+	chmod +x wp-cli.phar
+	sudo mv wp-cli.phar /usr/local/bin/wp
+
+Plugin:
+	git clone https://github.com/manojkhande/wordcamp.git
+
+Plugin Unit Testing
+
+	wp scaffold plugin-tests  wordcamp
+
+	bash bin/install-wp-tests.sh wordpress_test root  ‘'  localhost latest
+
+Git:
+	git checkout tags/3
+	git checkout tags/5
+
