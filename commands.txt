@@ -16,6 +16,13 @@ Install Wp-cli:
 	chmod +x wp-cli.phar
 	sudo mv wp-cli.phar /usr/local/bin/wp
 
+
+Install subversion (svn):
+	Linux:
+		apt-get install subversion
+	Windows:
+		https://sliksvn.com/download/ and download the files.
+
 Plugin:
 	git clone https://github.com/manojkhande/wordcamp.git
 
@@ -28,4 +35,7 @@ Plugin Unit Testing
 Git:
 	git checkout tags/3
 	git checkout tags/5
+	C:\Users\Manoj-Khande\AppData\Local\Temp
+	require dirname( dirname( __FILE__ ) ) . '/wordcamp.php';
+	require '../../../wp-load.php';
 
